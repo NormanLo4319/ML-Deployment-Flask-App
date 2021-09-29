@@ -23,9 +23,53 @@ Project Structure:
 
 Terminal:
 
-```
+``` sh
 conda activiate flask_demo # activate the flask_demo environment for the project
 cd __Demo # create the Demo folder to contain the project components
 pip install flask # install flask to this project environment
 ```
+
+Visual Studio Code:
+
+1. Go to the __Demo folder
+2. Create the "app.py" file
+3. Create the "request.py" file
+4. Create the "requirements.txt" file
+5. Create the "Profile" file
+6. Create a "templates" folder
+7. Create the index.html and result.html files inside the "templates" folder
+8. Create a "static" folder and a "css" folder within the "static" folder
+9. Create the "style.css" file inside the "css" folder
+10. Create a "model" folder
+11. Copy and paste the "model.py" and "model.pkl" file inside the "model" folder
+
+Structure of the folders and files in the project folder:
+
+~~~
+  ├── .gitignore
+  ├── Procfile
+  ├── app.py
+  ├── requirements.txt
+  └── runtime.txt
+~~~
+
+app.py File: (general structure)
+
+``` Python
+# Import Flask 
+from flask import Flask, render_template, request
+
+# Create the application
+app = Flask(__name__)
+
+# Something in between ....
+
+# Run the app
+if __name__ == "__main__"
+  app.run()
+```
+
+
+
+
 
