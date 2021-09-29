@@ -108,6 +108,23 @@ This is just a plaintext file that tell Heroku how to start up the web app. By c
 web: gunicorn app:app --log-file=-
 ```
 
+### 3. Put your code into the HTML, CSS, and .py files
+
+The code will be provided to students in the lecture.
+
+### 4. Run the Flask App on the local drive
+
+Terminal:
+
+``` sh
+cd Desktop/Flask_Demo
+python app.py
+```
+
+Note: If there is any missing modules in the environment, pip install them until the Flask App can be launched.
+
+### 5. Deploy the Flask App on Heroku
+
 
 
 
