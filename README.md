@@ -12,9 +12,8 @@ Flask is a micro web framwork written in Python. It is classified as a mcroframe
 
 Project Structure:
 
-1. model.py: This contains the machine learning model to make prediction.
+1. model.pkl: This contains the machine learning model to make prediction.
 2. app.py: This contains Flask APIs that receives input through API calls, then computes predicted value based on our model and returns it.
-3. request.py: This uses requests module to call APIs defined in app.py and displays the retured value.
 4. HTML/CSS: This contains the HTML template and CSS styling to allow user to enter the credentials.
 
 ## Project Workflow
