@@ -38,12 +38,13 @@ pip install gunicorn # install gunicorn to this project environment
 2. Create the "app.py" file
 3. Create the "requirements.txt" file
 4. Create the "Profile" file
-5. Create a "templates" folder
-6. Create the index.html and result.html files inside the "templates" folder
-7. Create a "static" folder and a "css" folder within the "static" folder
-8. Create the "style.css" file inside the "css" folder
-9. Create a "model" folder
-10. Save or copy the "model.pkl" file inside the "model" folder
+5. Create the "runtime.txt" file
+6. Create a "templates" folder
+7. Create the index.html and result.html files inside the "templates" folder
+8. Create a "static" folder and a "css" folder within the "static" folder
+9. Create the "style.css" file inside the "css" folder
+10. Create a "model" folder
+11. Save or copy the "model.pkl" file inside the "model" folder
 
 Structure of the folders and files in the project folder:
 
@@ -112,3 +113,4 @@ web: gunicorn app:app --log-file=-
 
 
 
+Copyright © 2021 Norman Lo
