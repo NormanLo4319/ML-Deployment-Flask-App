@@ -87,7 +87,7 @@ Note: The code will be provided in the lecture, so you don't have to worry about
 
 #### requirements.txt File:
 
-By convention, Python packages often include a plaintext file named requirements.txt, in which the dependencies for the package are listed on each line. Create an empty file named requirements.txt in the same root folder as app.py. The dependencies can be found by running the following code in the terminal (under the project environment).
+By convention, Python packages often include a plaintext file named requirements.txt, in which the dependencies for the package are listed on each line. Create an empty file named requirements.txt in the same root folder as app.py. The dependencies can be found by running the following code in the terminal (under the project environment). This file should be the **last one** to be created in this project just to make sure everything is running smoothly and all packages are installed for this project in the development environment.
 
 ``` sh
 pip freeze # freeze all the dependencies in the environment
@@ -99,7 +99,7 @@ Alternatively, we can also export this list of packages in the development envir
 pip freeze > requirements.txt
 ```
 
-Note: Just maker sure that you are in the right directory (root directory) to export this list.
+Note: Just make sure that you are in the right directory (root directory) to export this list to requirement.txt.
 
 #### runtime.txt File:
 
