@@ -1,6 +1,6 @@
 # Flask App Deployment Demo
 
-This repository demonstrate the steps for setting up a simple ML model and deploy with Flask App that lives on Heroku environment.
+This repository demonstrates the steps for setting up a simple ML model and deploy with Flask App that lives on Heroku environment.
 
 ## Deployment
 
