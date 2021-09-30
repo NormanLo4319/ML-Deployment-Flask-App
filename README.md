@@ -8,9 +8,9 @@ Generally speaking, deployment is the mehtod by which we integrate a machine lea
 
 ## Flask Framework
 
-Flask is a micro web framwork written in Python. It is classified as a mcroframework because it does not require particular tools or libraries.
+Flask is a micro web framwork written in Python. It is classified as a microframework because it does not require particular tools or libraries.
 
-Project Structure:
+Key Elements in the Project Structure:
 
 1. model.pkl: This contains the machine learning model to make prediction.
 2. app.py: This contains Flask APIs that receives input through API calls, then computes predicted value based on our model and returns it.
@@ -126,9 +126,30 @@ Note: If there is any missing modules in the environment, pip install them until
 
 ### 5. Deploy the Flask App on Heroku
 
+Step 1: Login to your Heroku account so you can see the Dashboard of your projects
 
+Step 2: Click on "New" the dropdown menu and select "Create new app"
 
+![heroku_1]("img/heroku_1.png)
 
+Step 3: Give your app a name that is available to use, then click "Create app"
 
+![heroku_2]("img/heroku_2.png)
+
+Step 4: Connect to your GitHub account by clickining the GitHub Box under "Deployment method"
+
+![heroku_3]("img/heroku_3.png)
+
+Step 5: Searh the GitHub Repo name for your project under "Connect to GitHub", then click connect
+
+![heroku_4]("img/heroku_4.png)
+
+Step 6: Scroll all the way down to the page and click on "Manual Deployment"
+
+**If everything goes through, your Flask app should now be living on Heroku server and ready to use!!**
+
+**Alternatively, if some error messages come up, this is the stage that frustrate most people, which DEBUGGIN!!!**
+
+### Resources:
 
 Copyright © 2021 Norman Lo
