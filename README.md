@@ -136,7 +136,7 @@ Step 3: Give your app a name that is available to use, then click "Create app"
 
 ![heroku_2](img/heroku_2.png)
 
-Step 4: Connect to your GitHub account by clickining the GitHub Box under "Deployment method"
+Step 4: Connect to your GitHub account by clicking the GitHub Box under "Deployment method"
 
 ![heroku_3](img/heroku_3.png)
 
