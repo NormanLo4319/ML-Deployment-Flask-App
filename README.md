@@ -148,7 +148,7 @@ Step 6: Scroll all the way down to the page and click on "Manual Deployment"
 
 **If everything goes through, your Flask app should now be living on Heroku server and ready to use!!**
 
-**Alternatively, if some error messages come up, this is the stage that frustrate most people, which DEBUGGIN!!!**
+**Alternatively, if some error messages come up, this is the stage that frustrate most people, which is DEBUGGING!!!**
 
 ### Resources:
 
