@@ -25,8 +25,8 @@ Terminal:
 ``` sh
 conda info --envs # check the current project environment
 conda create -n flask_demo python=3.8 # create the flask_demo environment for the project
-conda activiate flask_demo # activate the flask_demo environment for the project
-cd Desktop/Flask_Demo # CD to the Demo folder that contains the project components
+conda activate flask_demo # activate the flask_demo environment for the project
+cd Desktop/... # cd to the project folder on the local machine
 pip install flask # install flask to this project environment
 pip install gunicorn # install gunicorn to this project environment
 ```
@@ -130,7 +130,7 @@ Before deploying the Flask app, we need to make sure everything run smoothly and
 Terminal:
 
 ``` sh
-cd Desktop/Flask_Demo # cd to the project folder
+cd Desktop/... # cd to the project folder
 python app.py # run the app locally
 ```
 
