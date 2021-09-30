@@ -29,7 +29,6 @@ conda activiate flask_demo # activate the flask_demo environment for the project
 cd Desktop/Flask_Demo # CD to the Demo folder that contains the project components
 pip install flask # install flask to this project environment
 pip install gunicorn # install gunicorn to this project environment
-
 ```
 
 ### 2. Create the components with Visual Studio Code:
@@ -105,12 +104,14 @@ python --version
 This is just a plaintext file that tell Heroku how to start up the web app. By convention, this file is just a plaintext file called "Procfile", which is in the root directory of the application that defines process types and explicitly declares what command should be executed to start the app. The Procfile contains just this line:
 
 ``` 
-web: gunicorn app:app --log-file=-
+web: gunicorn app:app
 ```
+
+NOTE: Make sure you mannually do ```pip install gunicorn``` to the development environment before creating the requirements.txt file.  The gunicorn package is required for the final deployment process on Heroku, which is not required for running in the local environment, so you could easily miss it at the final stage.
 
 ### 3. Put your code into the HTML, CSS, and .py files
 
-The code will be provided to students in the lecture.
+The code will be provided to students in the lecture. For now, just sit and relex!
 
 ### 4. Run the Flask App on the local drive
 
