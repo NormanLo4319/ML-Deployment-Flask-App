@@ -83,6 +83,8 @@ if __name__ == "__main__"
   app.run()
 ```
 
+Note: The code will be provided in the lecture, so you don't have to worry about the "Something in between ... " part of this structure.
+
 #### requirements.txt File:
 
 By convention, Python packages often include a plaintext file named requirements.txt, in which the dependencies for the package are listed on each line. Create an empty file named requirements.txt in the same root folder as app.py. The dependencies can be found by running the following code in the terminal (under the project environment).
