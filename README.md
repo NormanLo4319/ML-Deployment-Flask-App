@@ -8,7 +8,7 @@ Generally speaking, deployment is the mehtod by which we integrate a machine lea
 
 ## Flask Framework
 
-Flask is a micro web framwork written in Python. It is classified as a microframework because it does not require particular tools or libraries.
+Flask is a micro web framwork written in Python. It is classified as a microframework because it does not require particular tools or libraries. To build a Flask app that runs a ML model in the background for prediction, we need to make sure the app contains the following key elements:
 
 Key Elements in the Project Structure:
 
@@ -69,7 +69,7 @@ Structure of the folders and files in the project folder:
 This file is the core of the *Flask application*, which instantiate the Flask object. The structure of the app.py file is demonstrated below.  
 
 ``` Python
-# Import Flask 
+# Import dependencies for the Flask app
 from flask import Flask, render_template, request, jsonify
 import pickle
 
@@ -91,12 +91,20 @@ By convention, Python packages often include a plaintext file named requirements
 pip freeze # freeze all the dependencies in the environment
 ```
 
+Alternatively, we can also export this list of packages in the development environment to a requirements.txt file directly by the following code:
+
+``` sh
+pip freeze > requirements.txt
+```
+
+Note: Just maker sure that you are in the right directory (root directory) to export this list.
+
 #### runtime.txt File:
 
 Heroku will know that we be running a Python app, but because there's a huge disparity between Python versions (notably, Python 2 versus 3), we need to tell Heroku to use the Python version that we're using on our own computer to develop our app. Create runtime.txt in your root app folder and add just the single line. The Python version in the project environment can be found with the following code in the terminal.
 
 ``` sh
-python --version
+python --version # checking the Python version in the development environment
 ```
 
 #### Procfile File:
@@ -113,13 +121,15 @@ NOTE: Make sure you mannually do ```pip install gunicorn``` to the development e
 
 The code will be provided to students in the lecture. For now, just sit and relex!
 
-### 4. Run the Flask App on the local drive
+### 4. Run the Flask App in the Dev Environment
+
+Before deploying the Flask app, we need to make sure everything run smoothly and correctly in the development environment.
 
 Terminal:
 
 ``` sh
-cd Desktop/Flask_Demo
-python app.py
+cd Desktop/Flask_Demo # cd to the project folder
+python app.py # run the app locally
 ```
 
 Note: If there is any missing modules in the environment, pip install them until the Flask App can be launched.
