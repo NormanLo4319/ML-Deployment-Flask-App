@@ -130,19 +130,19 @@ Step 1: Login to your Heroku account so you can see the Dashboard of your projec
 
 Step 2: Click on "New" the dropdown menu and select "Create new app"
 
-![heroku_1]("img/heroku_1.png)
+![heroku_1](img/heroku_1.png)
 
 Step 3: Give your app a name that is available to use, then click "Create app"
 
-![heroku_2]("img/heroku_2.png)
+![heroku_2](img/heroku_2.png)
 
 Step 4: Connect to your GitHub account by clickining the GitHub Box under "Deployment method"
 
-![heroku_3]("img/heroku_3.png)
+![heroku_3](img/heroku_3.png)
 
 Step 5: Searh the GitHub Repo name for your project under "Connect to GitHub", then click connect
 
-![heroku_4]("img/heroku_4.png)
+![heroku_4](img/heroku_4.png)
 
 Step 6: Scroll all the way down to the page and click on "Manual Deployment"
 
