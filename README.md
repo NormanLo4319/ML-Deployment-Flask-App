@@ -164,4 +164,6 @@ Step 6: Scroll all the way down to the page and click on "Manual Deployment"
 
 ### Resources:
 
+Flask Documentation: https://flask.palletsprojects.com/en/1.1.x/quickstart/
+
 Copyright © 2021 Norman Lo
